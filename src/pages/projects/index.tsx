@@ -18,7 +18,7 @@ export default function Projects() {
             <a href="/">Home</a>
           </li>
           <li className="p-4 hover:bg-[#c026d3]">
-            <a href="/projects">Projects</a>
+            <a href="/portfolio/projects">Projects</a>
           </li>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
@@ -37,7 +37,7 @@ export default function Projects() {
               <a href="/">Home</a>
             </li>
             <li className="p-4 border-b border-black-600">
-              <a href="/projects">Projects</a>
+              <a href="/portfolio/projects">Projects</a>
             </li>
           </ul>
         </div>
@@ -143,7 +143,7 @@ export default function Projects() {
             <div className="group relative">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                 <img
-                  src="src\assets\foto\bukti_publikasi.PNG"
+                  src="bukti_publikasi.PNG"
                   alt="Penerapan Internet of Thing (IoT) Dalam Pengendalian Suhu, Kelembaban dan PH Air Kolam pada Mini EduFarm"
                   className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                 />
@@ -173,7 +173,7 @@ export default function Projects() {
             <div className="group relative">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                 <img
-                  src="src\assets\foto\hama.PNG"
+                  src="hama.PNG"
                   alt="PENDETEKSI PENYAKIT DAN HAMA MENGGUNAKAN IMAGE CLASSIFICATION PADA HIDROPONIK SAWI BERBASIS IOT"
                   className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                 />

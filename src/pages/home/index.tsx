@@ -19,7 +19,7 @@ export default function Home() {
             <a href="/">Home</a>
           </li>
           <li className="p-4 hover:bg-[#c026d3]">
-            <a href="/projects">Projects</a>
+            <a href="/portfolio/projects">Projects</a>
           </li>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
@@ -38,7 +38,7 @@ export default function Home() {
               <a href="/">Home</a>
             </li>
             <li className="p-4 border-b border-black-600">
-              <a href="/projects">Projects</a>
+              <a href="/portfolio/projects">Projects</a>
             </li>
           </ul>
         </div>
@@ -46,7 +46,7 @@ export default function Home() {
       <div className="text-white">
         <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
           <img
-            src="src\assets\foto\pasfoto.png"
+            src="pasfoto.png"
             className="w-72 h-96 mx-auto rounded-full"
             alt=""
           />
