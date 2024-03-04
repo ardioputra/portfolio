@@ -72,7 +72,7 @@ export default function Home() {
               Hire This Man Already!
             </button>
           </a>
-          <a href="/projects" target="_blank">
+          <a href="/portfolio/projects" target="_blank">
             <button className="bg-[#c026d3] w-[200px] rounded-md font-medium mx-auto py-3 text-white">
               See My Projects
             </button>
