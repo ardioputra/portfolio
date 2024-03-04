@@ -38,7 +38,7 @@ export default function Home() {
               <a href="/">Home</a>
             </li>
             <li className="p-4 border-b border-black-600">
-              <a href="/portfolio/projects">Projects</a>
+              <a href="/portfolio/projects/">Projects</a>
             </li>
           </ul>
         </div>
@@ -72,7 +72,7 @@ export default function Home() {
               Hire This Man Already!
             </button>
           </a>
-          <a href="/portfolio/projects" target="_blank">
+          <a href="/portfolio/projects/" target="_blank">
             <button className="bg-[#c026d3] w-[200px] rounded-md font-medium mx-auto py-3 text-white">
               See My Projects
             </button>

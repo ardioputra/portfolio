@@ -37,7 +37,7 @@ export default function Projects() {
               <a href="/">Home</a>
             </li>
             <li className="p-4 border-b border-black-600">
-              <a href="/portfolio/projects">Projects</a>
+              <a href="/portfolio/projects/">Projects</a>
             </li>
           </ul>
         </div>
