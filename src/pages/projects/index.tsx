@@ -1,6 +1,8 @@
 import "/src/index.css";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
+import hama from "/hama.png";
+import publikasi from "/bukti_publikasi.png";
 
 export default function Projects() {
   const [nav, setNav] = useState(false);
@@ -143,7 +145,7 @@ export default function Projects() {
             <div className="group relative">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                 <img
-                  src="bukti_publikasi.png"
+                  src={publikasi}
                   alt="Penerapan Internet of Thing (IoT) Dalam Pengendalian Suhu, Kelembaban dan PH Air Kolam pada Mini EduFarm"
                   className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                 />
@@ -173,7 +175,7 @@ export default function Projects() {
             <div className="group relative">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                 <img
-                  src="hama.png"
+                  src={hama}
                   alt="PENDETEKSI PENYAKIT DAN HAMA MENGGUNAKAN IMAGE CLASSIFICATION PADA HIDROPONIK SAWI BERBASIS IOT"
                   className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                 />
