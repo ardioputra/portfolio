@@ -15,10 +15,10 @@ export default function Projects() {
         <ul className="hidden md:flex">
           <li className="p-4 hover:bg-[#c026d3]">
             {" "}
-            <a href="/portfolio">Home</a>
+            <a href="/portfolio/">Home</a>
           </li>
           <li className="p-4 hover:bg-[#c026d3]">
-            <a href="/portfolio/projects">Projects</a>
+            <a href="/portfolio/projects/">Projects</a>
           </li>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
@@ -27,14 +27,14 @@ export default function Projects() {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-gray-600 ease-in-out duration-500"
+              ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-gray-600 ease-in-out duration-500 z-50"
               : "fixed left-[-100%] ease-in-out duration-500"
           }
         >
           <h1 className="px-4 pt-4 w-full text-3xl font-mono">ARDIOPUTRA</h1>
           <ul className="p-4 pt-4 uppercase font-mono">
             <li className="p-4 border-b border-black-600">
-              <a href="/portfolio">Home</a>
+              <a href="/portfolio/">Home</a>
             </li>
             <li className="p-4 border-b border-black-600">
               <a href="/portfolio/projects/">Projects</a>
@@ -42,8 +42,8 @@ export default function Projects() {
           </ul>
         </div>
       </div>
-      <div className="bg-gray-600">
-        <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+      <div className="bg-black">
+        <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 w-full h-screen">
           <h2 className="text-2xl font-bold tracking-tight text-white">
             My Projects
           </h2>
@@ -143,7 +143,7 @@ export default function Projects() {
             <div className="group relative">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                 <img
-                  src="bukti_publikasi.PNG"
+                  src="bukti_publikasi.png"
                   alt="Penerapan Internet of Thing (IoT) Dalam Pengendalian Suhu, Kelembaban dan PH Air Kolam pada Mini EduFarm"
                   className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                 />
@@ -173,7 +173,7 @@ export default function Projects() {
             <div className="group relative">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                 <img
-                  src="hama.PNG"
+                  src="hama.png"
                   alt="PENDETEKSI PENYAKIT DAN HAMA MENGGUNAKAN IMAGE CLASSIFICATION PADA HIDROPONIK SAWI BERBASIS IOT"
                   className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                 />

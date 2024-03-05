@@ -19,7 +19,7 @@ export default function Home() {
             <a href="/portfolio/">Home</a>
           </li>
           <li className="p-4 hover:bg-[#c026d3]">
-            <a href="/portfolio/projects">Projects</a>
+            <a href="/portfolio/projects/">Projects</a>
           </li>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
@@ -28,7 +28,7 @@ export default function Home() {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-gray-600 ease-in-out duration-500"
+              ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-gray-600 ease-in-out duration-500 z-50"
               : "fixed left-[-100%] ease-in-out duration-500"
           }
         >
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </div>
       <div className="text-white">
-        <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
+        <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 w-full h-screen text-center flex flex-col justify-center">
           <img
             src="pasfoto.png"
             className="w-72 h-96 mx-auto rounded-full"
