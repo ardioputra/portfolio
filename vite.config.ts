@@ -7,5 +7,8 @@ export default defineConfig({
   base: "/portfolio/",
   build: {
     outDir: "build",
+    rollupOptions: {
+      external: ['hama', 'publikasi']
+    }
   },
 });
