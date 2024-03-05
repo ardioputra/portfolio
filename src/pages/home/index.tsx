@@ -35,7 +35,7 @@ export default function Home() {
           <h1 className="px-4 pt-4 w-full text-3xl font-mono">ARDIOPUTRA</h1>
           <ul className="p-4 pt-4 uppercase font-mono">
             <li className="p-4 border-b border-black-600">
-              <a href="/">Home</a>
+              <a href="/portfolio/">Home</a>
             </li>
             <li className="p-4 border-b border-black-600">
               <a href="/portfolio/projects/">Projects</a>
