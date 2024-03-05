@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     outDir: "build",
     rollupOptions: {
-      external: ['hama', 'publikasi']
+      external: ['/hama.png', '/bukti_publikasi.png']
     }
   },
 });
