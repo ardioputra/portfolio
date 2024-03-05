@@ -15,7 +15,7 @@ export default function Projects() {
         <ul className="hidden md:flex">
           <li className="p-4 hover:bg-[#c026d3]">
             {" "}
-            <a href="/">Home</a>
+            <a href="/portfolio/">Home</a>
           </li>
           <li className="p-4 hover:bg-[#c026d3]">
             <a href="/portfolio/projects">Projects</a>
