@@ -15,7 +15,7 @@ export default function Projects() {
         <ul className="hidden md:flex">
           <li className="p-4 hover:bg-[#c026d3]">
             {" "}
-            <a href="/portfolio/">Home</a>
+            <a href="/portfolio">Home</a>
           </li>
           <li className="p-4 hover:bg-[#c026d3]">
             <a href="/portfolio/projects">Projects</a>
@@ -34,7 +34,7 @@ export default function Projects() {
           <h1 className="px-4 pt-4 w-full text-3xl font-mono">ARDIOPUTRA</h1>
           <ul className="p-4 pt-4 uppercase font-mono">
             <li className="p-4 border-b border-black-600">
-              <a href="/portfolio/">Home</a>
+              <a href="/portfolio">Home</a>
             </li>
             <li className="p-4 border-b border-black-600">
               <a href="/portfolio/projects/">Projects</a>
